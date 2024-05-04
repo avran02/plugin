@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/avran02/plugin/tpl"
 	skyclilib "github.com/avran02/sky-cli-lib"
-	"github.com/avran02/sky-cli-plugins/plugin/tpl"
 )
 
 // must be named GetPluginConfig
