@@ -1,4 +1,4 @@
-module github.com/avran02/sky-cli-plugins/plugin
+module github.com/avran02/plugin
 
 go 1.22.2
 
