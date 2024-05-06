@@ -51,22 +51,5 @@ var (
 	}
 
 	// commands
-	initGo = skyclilib.OsCommand{
-		Name: "go",
-		Args: []skyclilib.CommandArg{
-			{
-				Name:            "mod",
-				NeedGetFromUser: false,
-			},
-			{
-				Name:            "init",
-				NeedGetFromUser: false,
-			},
-			{
-				Name:            "Project name",
-				NeedGetFromUser: true,
-			},
-		},
-	}
 )
 `

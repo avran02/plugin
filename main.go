@@ -53,16 +53,16 @@ var (
 		Name: "go",
 		Args: []skyclilib.CommandArg{
 			{
-				Name:            "mod",
-				NeedGetFromUser: false,
+				Value:  "mod",
+				Source: skyclilib.FromPlugin{},
 			},
 			{
-				Name:            "init",
-				NeedGetFromUser: false,
+				Value:  "init",
+				Source: skyclilib.FromPlugin{},
 			},
 			{
-				Name:            "Project name",
-				NeedGetFromUser: true,
+				Name:   "Project name",
+				Source: skyclilib.FromUser{},
 			},
 		},
 	}
